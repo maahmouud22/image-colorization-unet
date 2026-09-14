@@ -1,0 +1,15 @@
+# Cache
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+.vscode/
+
+# PyTorch Trained Models (أكبر من 100MB)
+*.pth
+*.pt
+
+# مجلدات النتائج الكبيرة (سنكتفي بمجلد العينات samples)
+*epoch*
